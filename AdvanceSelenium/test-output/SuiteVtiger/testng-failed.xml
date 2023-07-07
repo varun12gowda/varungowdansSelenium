@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteVtiger]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestVtiger(failed)">
+    <classes>
+      <class name="Login_Module.TestCase_2CreatingOrganization">
+        <methods>
+          <include name="navigateToApplication"/>
+          <include name="tearDownTheBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="validatingOrganization"/>
+        </methods>
+      </class> <!-- Login_Module.TestCase_2CreatingOrganization -->
+    </classes>
+  </test> <!-- TestVtiger(failed) -->
+</suite> <!-- Failed suite [SuiteVtiger] -->
