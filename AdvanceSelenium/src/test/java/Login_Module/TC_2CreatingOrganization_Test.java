@@ -25,7 +25,7 @@ public void validatingOrganization() throws InterruptedException, IOException
 	**/
 	
 	
-	
+	System.out.println("clicked");
 	
 	contact.getContactLink().click();
 	ListnersImplementationss.logger.log(Status.INFO,"Clicked on contactLink");
