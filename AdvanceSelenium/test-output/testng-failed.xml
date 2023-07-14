@@ -3,38 +3,29 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Login_Module.TC_Product_Test">
+      <class name="DemoPackage.Listeners3">
         <methods>
-          <include name="navigateToApplication"/>
-          <include name="ValidatingProducts"/>
-          <include name="tearDownTheBrowser"/>
-          <include name="LaunchBrowser"/>
+          <include name="demoForListeners5"/>
         </methods>
-      </class> <!-- Login_Module.TC_Product_Test -->
-      <class name="Login_Module.TC_2CreatingOrganization_Test">
+      </class> <!-- DemoPackage.Listeners3 -->
+      <class name="DemoPackage.Listeners1">
         <methods>
-          <include name="navigateToApplication"/>
-          <include name="validatingOrganization"/>
-          <include name="tearDownTheBrowser"/>
-          <include name="LaunchBrowser"/>
+          <include name="demoForListeners1"/>
         </methods>
-      </class> <!-- Login_Module.TC_2CreatingOrganization_Test -->
-      <class name="Login_Module.TC_LeadsPage_Test">
+      </class> <!-- DemoPackage.Listeners1 -->
+      <class name="DemoPackage.Listeners2">
         <methods>
-          <include name="navigateToApplication"/>
-          <include name="ValidatingLeadsPage"/>
-          <include name="tearDownTheBrowser"/>
-          <include name="LaunchBrowser"/>
+          <include name="demoForListeners3"/>
         </methods>
-      </class> <!-- Login_Module.TC_LeadsPage_Test -->
-      <class name="Login_Module.TC_DeleteLeads_Test">
+      </class> <!-- DemoPackage.Listeners2 -->
+      <class name="Login_Module.Test_C_001">
         <methods>
           <include name="navigateToApplication"/>
           <include name="tearDownTheBrowser"/>
+          <include name="validatingloginModule"/>
           <include name="LaunchBrowser"/>
-          <include name="ValidatingDeleteLeads"/>
         </methods>
-      </class> <!-- Login_Module.TC_DeleteLeads_Test -->
+      </class> <!-- Login_Module.Test_C_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -10,7 +10,7 @@ import GenericLibrary.Base_Class;
 public class Test_C_001 extends Base_Class
 {
 	
-@Test(enabled = false)
+@Test
 public void validatingloginModule() throws IOException, InterruptedException
 {
 	login1.getUserName().sendKeys(utility.readingdataFromPropertyFile("username"));

@@ -1,6 +1,6 @@
 browser:chrome
 url=http://localhost:8888/
-url1=https://www.moneycontrol.com/fixed-income/calculator/state-bank-of-india/fixed-deposit-calculator-SBI-BSB001.html
+
 username:admin
 password:admin
 ProductName:car

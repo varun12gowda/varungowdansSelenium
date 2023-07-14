@@ -16,7 +16,7 @@ public class ListnersImplementationss implements ITestListener
 		
 		public static ExtentTest logger;  //to go step by step;
 		public void onStart(ITestContext context) {
-		report.attachReporter(reporter);
+		report.attachReporter(reporter);//
 		}
 		public void onTestStart(ITestResult result) {
 		logger=report.createTest(result.getMethod().getMethodName());

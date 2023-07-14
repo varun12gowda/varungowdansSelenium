@@ -1,4 +1,6 @@
+/**
 package DemoPackage;
+
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -22,3 +24,4 @@ public void test2() throws InterruptedException {
 	Thread.sleep(2000);
 }
 }
+**/

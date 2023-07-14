@@ -19,7 +19,7 @@ import ObjectReposotory.CreatingOrganization;
 import ObjectReposotory.DeletingLeads;
 import ObjectReposotory.HomePage;
 import ObjectReposotory.Leads_page;
-import ObjectReposotory.LoginPage;
+
 import ObjectReposotory.LoginPage1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -32,7 +32,7 @@ public  class Base_Class {
 	public Properties_Utility utility=new Properties_Utility();
 	
 	public Excell_Utility Excel;
-	public LoginPage login;
+	
 	public HomePage home;
 	public CreatingOrganization contact;
 	public LoginPage1 login1;

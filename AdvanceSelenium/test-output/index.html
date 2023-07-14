@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\User\eclipse-workspace\AdvanceSelenium\vtiger.xml</span>
+                    <span>C:\Users\User\git\FrameWorkVTiger\AdvanceSelenium\testng3.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,36 +92,90 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  4 skipped,  </span>
+                    <span class="method-stats">13 methods, 4 failed,   9 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login_Module.TC_DeleteLeads_Test" class="method navigator-link" hash-for-method="ValidatingDeleteLeads">ValidatingDeleteLeads</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoPackage.Listeners1" class="method navigator-link" hash-for-method="demoForListeners1">demoForListeners1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login_Module.TC_LeadsPage_Test" class="method navigator-link" hash-for-method="ValidatingLeadsPage">ValidatingLeadsPage</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoPackage.Listeners2" class="method navigator-link" hash-for-method="demoForListeners3">demoForListeners3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login_Module.TC_Product_Test" class="method navigator-link" hash-for-method="ValidatingProducts">ValidatingProducts</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoPackage.Listeners3" class="method navigator-link" hash-for-method="demoForListeners5">demoForListeners5</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login_Module.Test_C_001" class="method navigator-link" hash-for-method="validatingloginModule">validatingloginModule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DataProvidre.DataProviderClass" class="method navigator-link" hash-for-method="M2(java)">M2(java)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DataProvidre.DataProviderClass" class="method navigator-link" hash-for-method="M2(sql)">M2(sql)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login_Module.TC_3DeleteLeads_Test" class="method navigator-link" hash-for-method="ValidatingDeleteLeads">ValidatingDeleteLeads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login_Module.TC_4LeadsPage_Test" class="method navigator-link" hash-for-method="ValidatingLeadsPage">ValidatingLeadsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login_Module.TC_5Product_Test" class="method navigator-link" hash-for-method="ValidatingProducts">ValidatingProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoPackage.Listeners1" class="method navigator-link" hash-for-method="demoForListener">demoForListener</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoPackage.Listeners2" class="method navigator-link" hash-for-method="demoForListener2">demoForListener2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoPackage.Listeners3" class="method navigator-link" hash-for-method="demoForListener4">demoForListener4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Login_Module.TC_2CreatingOrganization_Test" class="method navigator-link" hash-for-method="validatingOrganization">validatingOrganization</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -133,66 +187,85 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Login_Module.TC_Product_Test</span>
+              <img src="failed.png"/>
+              <span class="class-name">DemoPackage.Listeners3</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidatingProducts">
-                  </a> <!-- ValidatingProducts -->
-                  <span class="method-name">ValidatingProducts</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.110)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-LRFV9J8&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7abe39705b3336cab2ddf4bcde21ca86
-*** Element info: {Using=name, value=user_password}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-	at GenericLibrary.Base_Class.LaunchBrowser(Base_Class.java:66)
+                  <a name="demoForListeners5">
+                  </a> <!-- demoForListeners5 -->
+                  <span class="method-name">demoForListeners5</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at DemoPackage.Listeners3.demoForListeners5(Listeners3.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
+... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Login_Module.TC_2CreatingOrganization_Test</span>
+              <img src="failed.png"/>
+              <span class="class-name">DemoPackage.Listeners1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validatingOrganization">
-                  </a> <!-- validatingOrganization -->
-                  <span class="method-name">validatingOrganization</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+                  <a name="demoForListeners1">
+                  </a> <!-- demoForListeners1 -->
+                  <span class="method-name">demoForListeners1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at DemoPackage.Listeners1.demoForListeners1(Listeners1.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">DemoPackage.Listeners2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoForListeners3">
+                  </a> <!-- demoForListeners3 -->
+                  <span class="method-name">demoForListeners3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at DemoPackage.Listeners2.demoForListeners3(Listeners2.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Login_Module.Test_C_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingloginModule">
+                  </a> <!-- validatingloginModule -->
+                  <span class="method-name">validatingloginModule</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
   (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-LRFV9J8&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+System info: host: &apos;DESKTOP-LRFV9J8&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e40340f80d63a6dff47ac7158752b3ee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42e241834667be957113407bf27e3725
 *** Element info: {Using=name, value=user_name}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -206,60 +279,34 @@ Session ID: e40340f80d63a6dff47ac7158752b3ee
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-	at GenericLibrary.Base_Class.LaunchBrowser(Base_Class.java:64)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at Login_Module.Test_C_001.validatingloginModule(Test_C_001.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Login_Module.TC_LeadsPage_Test</span>
+              <img src="passed.png"/>
+              <span class="class-name">DemoPackage.Listeners3</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidatingLeadsPage">
-                  </a> <!-- ValidatingLeadsPage -->
-                  <span class="method-name">ValidatingLeadsPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.110)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-LRFV9J8&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2878535b8e9a56496c2ba6fb23edb302
-*** Element info: {Using=name, value=user_password}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-	at GenericLibrary.Base_Class.LaunchBrowser(Base_Class.java:66)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="demoForListener4">
+                  </a> <!-- demoForListener4 -->
+                  <span class="method-name">demoForListener4</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Login_Module.TC_DeleteLeads_Test</span>
+              <img src="passed.png"/>
+              <span class="class-name">Login_Module.TC_3DeleteLeads_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -267,40 +314,113 @@ Session ID: 2878535b8e9a56496c2ba6fb23edb302
                   <a name="ValidatingDeleteLeads">
                   </a> <!-- ValidatingDeleteLeads -->
                   <span class="method-name">ValidatingDeleteLeads</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.110)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-LRFV9J8&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a2cd81ec4111493b1765b0437c9d0a9
-*** Element info: {Using=name, value=user_password}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-	at GenericLibrary.Base_Class.LaunchBrowser(Base_Class.java:66)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login_Module.TC_4LeadsPage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatingLeadsPage">
+                  </a> <!-- ValidatingLeadsPage -->
+                  <span class="method-name">ValidatingLeadsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login_Module.TC_2CreatingOrganization_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingOrganization">
+                  </a> <!-- validatingOrganization -->
+                  <span class="method-name">validatingOrganization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login_Module.TC_5Product_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatingProducts">
+                  </a> <!-- ValidatingProducts -->
+                  <span class="method-name">ValidatingProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoPackage.Listeners1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoForListener">
+                  </a> <!-- demoForListener -->
+                  <span class="method-name">demoForListener</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DataProvidre.DataProviderClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="M2(java)">
+                  </a> <!-- M2(java) -->
+                  <span class="method-name">M2</span>
+                  <span class="parameters">(java)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="M2(sql)">
+                  </a> <!-- M2(sql) -->
+                  <span class="method-name">M2</span>
+                  <span class="parameters">(sql)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoPackage.Listeners2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoForListener2">
+                  </a> <!-- demoForListener2 -->
+                  <span class="method-name">demoForListener2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\eclipse-workspace\AdvanceSelenium\vtiger.xml</span>
+            <span class="header-content">C:\Users\User\git\FrameWorkVTiger\AdvanceSelenium\testng3.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -309,10 +429,16 @@ Session ID: 7a2cd81ec4111493b1765b0437c9d0a9
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Login_Module.TC_Product_Test&quot;/&gt;
-      &lt;class name=&quot;Login_Module.TC_LeadsPage_Test&quot;/&gt;
-      &lt;class name=&quot;Login_Module.TC_DeleteLeads_Test&quot;/&gt;
+      &lt;class name=&quot;DataProvidre.DataProviderClass&quot;/&gt;
+      &lt;class name=&quot;Login_Module.Test_C_001&quot;/&gt;
+      &lt;class name=&quot;Login_Module.Tc_6SignOut&quot;/&gt;
+      &lt;class name=&quot;DemoPackage.Listeners2&quot;/&gt;
+      &lt;class name=&quot;DemoPackage.Listeners3&quot;/&gt;
+      &lt;class name=&quot;Login_Module.TC_4LeadsPage_Test&quot;/&gt;
       &lt;class name=&quot;Login_Module.TC_2CreatingOrganization_Test&quot;/&gt;
+      &lt;class name=&quot;DemoPackage.Listeners1&quot;/&gt;
+      &lt;class name=&quot;Login_Module.TC_5Product_Test&quot;/&gt;
+      &lt;class name=&quot;Login_Module.TC_3DeleteLeads_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -326,7 +452,7 @@ Session ID: 7a2cd81ec4111493b1765b0437c9d0a9
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -352,28 +478,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ValidatingDeleteLeads')
-data.setCell(0, 2, 'Login_Module.TC_DeleteLeads_Test')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'ValidatingProducts')
+data.setCell(0, 2, 'Login_Module.TC_5Product_Test')
+data.setCell(0, 3, 60417);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ValidatingProducts')
-data.setCell(1, 2, 'Login_Module.TC_Product_Test')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'ValidatingLeadsPage')
+data.setCell(1, 2, 'Login_Module.TC_4LeadsPage_Test')
+data.setCell(1, 3, 42593);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidatingLeadsPage')
-data.setCell(2, 2, 'Login_Module.TC_LeadsPage_Test')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'validatingOrganization')
+data.setCell(2, 2, 'Login_Module.TC_2CreatingOrganization_Test')
+data.setCell(2, 3, 22969);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validatingOrganization')
-data.setCell(3, 2, 'Login_Module.TC_2CreatingOrganization_Test')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'validatingloginModule')
+data.setCell(3, 2, 'Login_Module.Test_C_001')
+data.setCell(3, 3, 10135);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidatingDeleteLeads')
+data.setCell(4, 2, 'Login_Module.TC_3DeleteLeads_Test')
+data.setCell(4, 3, 9110);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'demoForListeners3')
+data.setCell(5, 2, 'DemoPackage.Listeners2')
+data.setCell(5, 3, 99);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'M2')
+data.setCell(6, 2, 'DataProvidre.DataProviderClass')
+data.setCell(6, 3, 22);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'demoForListener')
+data.setCell(7, 2, 'DemoPackage.Listeners1')
+data.setCell(7, 3, 7);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'demoForListener4')
+data.setCell(8, 2, 'DemoPackage.Listeners3')
+data.setCell(8, 3, 5);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'M2')
+data.setCell(9, 2, 'DataProvidre.DataProviderClass')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'demoForListener2')
+data.setCell(10, 2, 'DemoPackage.Listeners2')
+data.setCell(10, 3, 4);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'demoForListeners5')
+data.setCell(11, 2, 'DemoPackage.Listeners3')
+data.setCell(11, 3, 4);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'demoForListeners1')
+data.setCell(12, 2, 'DemoPackage.Listeners1')
+data.setCell(12, 3, 3);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -388,9 +550,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Login_Module.Tc_6SignOut</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">ValidatingSignOutPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -399,95 +568,150 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Login_Module.TC_Product_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LaunchBrowser</span>
+              <div class="chronological-class-name">DataProvidre.DataProviderClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">M2(java)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">M2(sql)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login_Module.Test_C_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">79 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToApplication</span>
-                <span class="method-start">10482 ms</span>
+                <span class="method-start">11568 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ValidatingProducts</span>
-                <span class="method-start">10560 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">validatingloginModule</span>
+                <span class="method-start">11592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
                 <span class="method-name">tearDownTheBrowser</span>
-                <span class="method-start">10612 ms</span>
+                <span class="method-start">21994 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Login_Module.TC_LeadsPage_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="chronological-class-name">DemoPackage.Listeners2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoForListener2</span>
+                <span class="method-start">30417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">demoForListeners3</span>
+                <span class="method-start">30452 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoPackage.Listeners3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoForListener4</span>
+                <span class="method-start">30843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">demoForListeners5</span>
+                <span class="method-start">30854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login_Module.TC_4LeadsPage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">10652 ms</span>
+                <span class="method-start">30899 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToApplication</span>
-                <span class="method-start">16027 ms</span>
+                <span class="method-start">47928 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidatingLeadsPage</span>
-                <span class="method-start">16034 ms</span>
+                <span class="method-start">47932 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDownTheBrowser</span>
-                <span class="method-start">16048 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Login_Module.TC_DeleteLeads_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">16072 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">navigateToApplication</span>
-                <span class="method-start">21505 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">ValidatingDeleteLeads</span>
-                <span class="method-start">21517 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDownTheBrowser</span>
-                <span class="method-start">21528 ms</span>
+                <span class="method-start">90528 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Login_Module.TC_2CreatingOrganization_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">21561 ms</span>
+                <span class="method-start">96628 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToApplication</span>
-                <span class="method-start">24508 ms</span>
+                <span class="method-start">106728 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatingOrganization</span>
-                <span class="method-start">24511 ms</span>
+                <span class="method-start">106731 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
+                <span class="method-name">tearDownTheBrowser</span>
+                <span class="method-start">129704 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoPackage.Listeners1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoForListener</span>
+                <span class="method-start">136071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">demoForListeners1</span>
+                <span class="method-start">136083 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login_Module.TC_5Product_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">136283 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToApplication</span>
+                <span class="method-start">145560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatingProducts</span>
+                <span class="method-start">145564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
                 <span class="method-name">tearDownTheBrowser</span>
-                <span class="method-start">24525 ms</span>
+                <span class="method-start">205984 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login_Module.TC_3DeleteLeads_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">212452 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToApplication</span>
+                <span class="method-start">221960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatingDeleteLeads</span>
+                <span class="method-start">221963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownTheBrowser</span>
+                <span class="method-start">231076 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

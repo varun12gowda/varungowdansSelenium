@@ -1,3 +1,4 @@
+/**
 package DemoPackage;
 
 import org.openqa.selenium.By;
@@ -22,3 +23,4 @@ public void test4() throws InterruptedException {
 	Thread.sleep(2000);
 }
 }
+**/
